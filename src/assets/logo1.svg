@@ -1,0 +1,11 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shivamGradient" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0.36%" style="stop-color:#DA7C25; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B923E1; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="10" y="50" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="url(#shivamGradient)">
+    Shivam
+  </text>
+</svg>
