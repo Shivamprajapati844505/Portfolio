@@ -1,0 +1,15 @@
+<svg width="190" height="57" viewBox="0 0 109 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M78 42.39C78 41.3438 78.9096 40.53 79.9493 40.6459L111.251 44.136C115.227 44.5794 118.591 41.226 118.161 37.2483C117.713 33.1161 113.434 30.5622 109.5844 32.1306L80.4171 44.0151C79.2629 44.4854 78 43.6363 78 42.39Z" 
+      fill="url(#paint0_linear_2205_14)" 
+      transform="scale(1.6) translate(-38,-17)"/>
+
+<text x="-23" y="42" font-family= "outfit" font-size="40" font-weight="bold" fill="white">
+  Shivam
+</text>
+<defs>
+<linearGradient id="paint0_linear_2205_14" x1="219.1" y1="39.9983" x2="202.599" y2="91.4037" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DF8908"/>
+<stop offset="1" stop-color="#B415FF"/>
+</linearGradient>
+</defs>
+</svg>
