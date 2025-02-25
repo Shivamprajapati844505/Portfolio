@@ -16,8 +16,9 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>I am an experienced frontend Developer with over a decade of professional expertise in the field.</p>
-            <p>My passion for frontend development is not only reflectd in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+          <p>I am a frontend developer with a strong passion for building modern and user-friendly web applications.</p>
+<p>I am eager to learn and grow, bringing enthusiasm and dedication to every project I work on.</p>
+
           </div>
           <div className="about-skills">
             <div className="about-skill">
@@ -50,7 +51,7 @@ const About = () => {
         </div>
         <hr />
         <div className="about-achievement">
-            <h1>10+</h1>
+            <h1>8+</h1>
             <p>PROJECTS COMPLETED</p>
         </div>
       </div>

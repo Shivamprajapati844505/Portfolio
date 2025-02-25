@@ -31,6 +31,7 @@
   height: 280px;
   transition: 0.3s;
   cursor: pointer;
+  border-radius: 5px;
 }
 .mywork-container img:hover {
   transform: scale(1.1);
@@ -77,14 +78,15 @@
   .mywork-container img {
     width: 310px;
     height: 180px;
+    border-radius: 5px;
   }
   .mywork-container img:hover {
     transform: scale(1.1);
   }
   .mywork-showmore {
     grid-template-columns: 1fr;
-    padding: 8px 40px;
-    font-size: 14px;
+    padding: 8px 20px;
+    font-size: 20px;
     cursor: pointer;
     margin-bottom: 0px;
     margin-top: 0px;

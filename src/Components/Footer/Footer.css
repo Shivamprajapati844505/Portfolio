@@ -28,10 +28,11 @@
 
 .social-links a {
   color: white;
-  font-size: 80px;
-  width: 40px;
+  font-size: 40px;
+  width: 60px;
   transition: 0.3s;
   margin-right: 50px;
+  padding-bottom:0px ;
 }
 
 .social-links a:hover {
