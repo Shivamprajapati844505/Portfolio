@@ -6,7 +6,7 @@ import arrow_icon from '../../assets/arrow_icon.svg';
 
 const MyWork = () => {
   const handleClick = (url) => {
-    window.open(url, '_blank'); // New tab me open karega
+    window.open(url, '_blank');
   };
 
   return (
@@ -22,7 +22,7 @@ const MyWork = () => {
             src={work.w_img}
             alt={work.w_name}
             onClick={() => handleClick(work.w_url)}
-            style={{ cursor: 'pointer' }} // Pointer cursor dikhayega
+            style={{ cursor: 'pointer' }} 
           />
         ))}
       </div>

@@ -16,43 +16,47 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-          <p>I am a frontend developer with a strong passion for building modern and user-friendly web applications.</p>
-<p>I am eager to learn and grow, bringing enthusiasm and dedication to every project I work on.</p>
-
+            <p>
+              I am a fullstack developer with a strong passion for building modern and
+              user-friendly web applications.
+            </p>
+            <p>
+              I am eager to learn and grow, bringing enthusiasm and dedication to every
+              project I work on.
+            </p>
           </div>
           <div className="about-skills">
-            <div className="about-skill">
-              <p>HTML5</p>
-              <hr style={{ width: "80%" }} />
-            </div>
-            <div className="about-skill">
-              <p>CSS</p>
-              <hr style={{ width: "60%" }} />
-            </div>
-            <div className="about-skill">
-              <p>React JS</p>
-              <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>JavaScript</p>
-              <hr style={{ width: "80%" }} />
-            </div>
-            <div className="about-skill">
-              <p>SQL</p>
-              <hr style={{ width: "40%" }} />
-            </div>
+            {[
+              "HTML5",
+              "CSS",
+              "JavaScript",
+              "TypeScript",
+              "React JS",
+              "Next.js",
+              "Node.js",
+              "MongoDB",
+              "Sql",
+              "PostgreSQL",
+              "Prisma",
+              "AWS",
+            ].map((skill) => (
+              <div key={skill} className="about-skill">
+                <p>{skill}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
+
       <div className="about-achievements">
         <div className="about-achievement">
-            <h1>3</h1>
-            <p>YEARS OF EXPERIENCE</p>
+          <h1>1</h1>
+          <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achievement">
-            <h1>8+</h1>
-            <p>PROJECTS COMPLETED</p>
+          <h1>8+</h1>
+          <p>PROJECTS COMPLETED</p>
         </div>
       </div>
     </div>

@@ -1,15 +1,17 @@
 import React from "react";
 import "./Hero.css";
-import profile_img from "../../assets/profile2_img.jpeg";
+import profile_img from "../../assets/self.jpg";
+import resume from "../../assets/Shivam_Prajapati_2025.pdf";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+
 const Hero = () => {
   return (
     <div id="home" className="hero">
-      <img src={profile_img} alt="" />
+      <img src={profile_img} alt="Profile" />
       <h1>
-  <span>I'm Shivam Prajapati,</span> a software developer specializing in React.js.
-</h1>
-<p>I am a passionate Full Stack developer, eager to build modern web applications.</p>
+        <span>I'm Shivam Prajapati,</span> a software developer specializing in MERN Stack.
+      </h1>
+      <p>I am a passionate Full Stack developer, eager to build modern web applications.</p>
 
       <div className="hero-action">
         <div className="hero-connect">
@@ -17,7 +19,13 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <a
+          href={resume}
+          download="Shivam_Resume"
+          className="hero-resume"
+        >
+          My Resume
+        </a>
       </div>
     </div>
   );

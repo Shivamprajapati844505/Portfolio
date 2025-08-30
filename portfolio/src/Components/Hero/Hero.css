@@ -47,13 +47,14 @@
   border-radius: 50px;
   border: 2px solid #fff;
   cursor: pointer;
-}
-.hero-connect:hover {
-  border: 2px solid white;
+  text-decoration: none;
+  color: white; 
+  display: inline-block; 
 }
 .hero-resume:hover {
   border-color: #b415ff;
 }
+
 @media (max-width: 768px) {
   .hero img {
     margin-top: 120px;
