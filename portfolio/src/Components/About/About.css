@@ -102,7 +102,6 @@
   transform: scale(1.12);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .about {
     gap: 80px;

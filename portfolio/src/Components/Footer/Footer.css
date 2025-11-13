@@ -5,34 +5,41 @@
   flex-direction: column;
   gap: 30px;
   text-align: center;
+  color: white;
 }
 
 .footer-top {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
-.footer-top-left{
+
+.footer-top-left {
   display: flex;
   align-items: center;
-  padding-top: 20px;
+  justify-content: center;
+  flex: 1;
+}
+
+.footer-logo {
+  width: 120px;
 }
 
 .social-links {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 120px;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex: 1;
 }
 
 .social-links a {
   color: white;
-  font-size: 40px;
-  width: 60px;
+  font-size: 35px;
   transition: 0.3s;
-  margin-right: 50px;
-  padding-bottom:0px ;
 }
 
 .social-links a:hover {
@@ -41,9 +48,9 @@
 
 .footer-bottom {
   display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   font-size: 16px;
   padding-bottom: 40px;
   gap: 10px;
@@ -51,42 +58,64 @@
 
 .footer-bottom-right {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
-.footer-bottom-right p{
-margin-left: 50px;
+
+.footer-bottom-right p {
+  margin: 0;
 }
 
-/* Responsive Design */
+/* ---------------- Responsive ---------------- */
+@media (max-width: 992px) {
+  .footer {
+    margin: 40px 20px;
+  }
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-logo {
+    width: 100px;
+  }
+}
+
 @media (max-width: 768px) {
   .footer {
-    margin: 30px 20px;
+    margin: 30px 10px;
   }
-  .footer-top{
-    flex-direction: column;
+
+  .social-links a {
+    font-size: 28px;
   }
-  .footer-top-left{
-  display: none;  
-  }
-  .social-links{
-   text-align: center;
-   margin-left: 200px;
-  }
-  
-.social-links a{
-  font-size: 25px;
-}
+
   .footer-bottom {
     flex-direction: column;
+    gap: 15px;
   }
-  .footer-bottom-left{
-   font-size: 15px;
-   padding-bottom: 20px;
+
+  .footer-bottom-left {
+    font-size: 14px;
   }
-  .footer-bottom-right p{
+
+  .footer-bottom-right p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-links a {
+    font-size: 24px;
+  }
+
+  .footer-bottom-right {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-bottom p {
     font-size: 12px;
-    margin-bottom: 50px;
-    }
-  
+  }
 }

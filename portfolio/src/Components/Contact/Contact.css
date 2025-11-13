@@ -118,7 +118,7 @@
 @media (max-width: 768px) {
   .contact {
     gap: 50px;
-    margin: 50px 70px;
+    margin: 50px 20px;
     align-items: start;
   }
   .contact-title h1 {
@@ -134,14 +134,17 @@
   .contact-section {
     flex-direction: column;
   }
+  .contact-left{
+    margin: 0px;
+  }
   .contact-left h1 {
     font-size: 54px;
   }
   .contact-left p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .contact-title h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .contact-left h1 {
     font-size: 28px;
@@ -160,13 +163,13 @@
     font-size: 20px;
   }
   .contact-right input {
-    width: 100%;
+    width: 80%;
     height: 40px;
     font-size: 20px;
     margin-top: 0px;
   }
   .contact-right textarea {
-    width: 95%;
+    width:70%;
     font-size: 20px;
     height: 60px;
   }
